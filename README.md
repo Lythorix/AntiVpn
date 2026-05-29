@@ -260,17 +260,17 @@ true — auto-ban enabled
 false — auto-ban disabled
 
 Interval settings
-Parameter	               Default	     Description
-monitoring.status_interval_seconds	40	Status check interval
-ipcheck.cache_ttl_hours	24	IP cache time-to-live
-ipcheck.rate_limit_ms	1500	Delay between API requests
+Parameter	                        Default	         Description
+monitoring.status_interval_second  40               Status check interval
+ipcheck.cache_ttl_hours	           24	              IP cache time-to-live
+ipcheck.rate_limit_ms	             1500	            Delay between API requests
 
 🔧 Commands
 Command	            Description
-npm install	Install dependencies
-npm run build	Build TypeScript to JavaScript
-npm start	Start the bot
-npm run dev	Start in development mode
+npm install	         Install dependencies
+npm run build	       Build TypeScript to JavaScript
+npm start	           Start the bot
+npm run dev	         Start in development mode
 ```
 🛡️ How It Works
 Bot connects to the DDNet server via RCON

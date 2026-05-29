@@ -290,6 +290,7 @@ AutoBan mode: automatically bans the player
 Maintains blacklist/whitelist with auto-updates every 6 hours
 
 🤝 Credits
+#
 Author: [Lythorix](https://github.com/Lythorix)
 
 Libraries used:

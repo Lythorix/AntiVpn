@@ -44,7 +44,7 @@
 4. **Important:** Check the box "Automatically install the necessary tools" during installation
 5. Verify installation — open **Command Prompt** or **PowerShell**:
 
-```powershell
+``powershell
 node --version
 npm --version
 You should see version numbers (e.g., v20.11.0 and 10.2.4).

@@ -258,13 +258,13 @@ auto_ban.enabled
 true — auto-ban enabled
 
 false — auto-ban disabled
-```
+
 Interval settings
 Parameter	Default	Description
 monitoring.status_interval_seconds	40	Status check interval
 ipcheck.cache_ttl_hours	24	IP cache time-to-live
 ipcheck.rate_limit_ms	1500	Delay between API requests
-
+```
 🔧 Commands
 Command	Description
 npm install	Install dependencies

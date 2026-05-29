@@ -31,7 +31,7 @@
 - **Discord Webhook** for notifications
 
 ---
-
+```
 ## 🚀 Installation
 
 ### Windows
@@ -44,7 +44,7 @@
 4. **Important:** Check the box "Automatically install the necessary tools" during installation
 5. Verify installation — open **Command Prompt** or **PowerShell**:
 
-```powershell
+powershell
 node --version
 npm --version
 You should see version numbers (e.g., v20.11.0 and 10.2.4).
@@ -257,8 +257,8 @@ autoban	Automatic ban when VPN/proxy detected
 auto_ban.enabled
 true — auto-ban enabled
 
-false — auto-ban disabled```
-
+false — auto-ban disabled
+```
 Interval settings
 Parameter	Default	Description
 monitoring.status_interval_seconds	40	Status check interval

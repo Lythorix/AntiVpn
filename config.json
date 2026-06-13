@@ -1,0 +1,39 @@
+{
+  "server": {
+    "host": "",
+    "port": 8303,
+    "rcon_password": "",
+    "rcon_username": ""
+  },
+  "discord": {
+    "webhook_url": "",
+    "alert_webhook_url": ""
+  },
+  "ipcheck": {
+    "rate_limit_ms": 1500,
+    "cache_ttl_hours": 24,
+    "retry_attempts": 5,
+    "retry_delay_ms": 3000
+  },
+  "monitoring": {
+    "status_interval_seconds": 40,
+    "reconnect_delay_ms": 3000,
+    "max_reconnect_attempts": 10,
+    "hourly_reconnect": true,
+    "reconnect_interval_minutes": 60
+  },
+  "logs": {
+    "cleanup_interval_hours": 2,
+    "max_age_days": 7,
+    "keep_only_today": false
+  },
+  "bot": {
+    "nickname": "LythorixAntiVpn",
+    "clan": "Security"
+  },
+  "auto_ban": {
+    "enabled": true,
+    "mode": "autoban",
+    "ban_duration_minutes": 0
+  }
+}
